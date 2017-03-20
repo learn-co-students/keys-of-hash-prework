@@ -1,5 +1,9 @@
 class Hash
-  def keys_of(arg, arg2 = nil)
-    map { |k,v| k if v == arg || v == arg2 }.compact
+  def keys_of(*args)
+    a = []
+    each do |k,v|
+      args.each { |x| a << k if v == x }
+    end
+    a
   end
 end
