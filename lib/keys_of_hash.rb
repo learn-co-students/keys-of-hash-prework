@@ -11,8 +11,3 @@ class Hash
     array
   end
 end
-
-
-test = Hash.new
-
-puts test.keys_of("Australia")
