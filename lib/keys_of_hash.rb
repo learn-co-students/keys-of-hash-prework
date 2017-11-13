@@ -1,17 +1,16 @@
 require 'pry'
 
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
+    # binding.pry
     array = []
-    if arguments == "Panama"
-      array.push("red-footed tortoise")
-    elsif arguments == "Madagascar"
-      array.push("tomato frog","aye-aye")
-    elsif arguments == "Australia"
-      array.push("koala","kangaroo","sugar glider")
-    elsif
-      array.push(arguments)
+    self.each do |k, v|
+      if v == arguments
+        array.push(k)
+      end
     end
-    return array
+    array
   end
+
+
 end
