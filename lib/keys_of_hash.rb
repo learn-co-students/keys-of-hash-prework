@@ -1,3 +1,5 @@
+require 'pry'
+
 class Hash
   def keys_of(arguments)
     array = []
@@ -16,7 +18,6 @@ class Hash
     else
       array.push(arguments)
     end
-    # code goes here
     return array
   end
 end
