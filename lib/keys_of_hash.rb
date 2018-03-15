@@ -1,4 +1,3 @@
-require 'pry'
 class Hash
 	def keys_of(*arguments)
 		array = []
@@ -11,5 +10,4 @@ class Hash
 		end
 		array
 	end
-
 end
