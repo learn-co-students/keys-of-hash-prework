@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(arguments)
-    # code goes here
+  def keys_of(*args)
+    self.map {|k, v| args.include?(v) ? k : nil}.compact
   end
 end
