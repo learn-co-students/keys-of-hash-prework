@@ -1,5 +1,5 @@
 class Hash
   def keys_of(arguments)
-    # code goes here
+    .keys_of_hash
   end
 end
