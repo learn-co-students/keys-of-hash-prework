@@ -9,7 +9,7 @@
 ## Instructions
 
 Fork and clone this lab. Run `learn` to see what the tests require of you. In this lab you'll be modifying Ruby's Hash class. This is called **monkey patching**. 
-
+aaa
 ### What is Monkey Patching
 
 Monkey patching is the practice of re-opening and modifying pre-existing classes. So, Ruby already has a Hash class, the instances of which you've been working with in the past two units. If we create a file that reads: 
