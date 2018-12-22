@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(*args)
+  def keys_of( *args)
     array = []
     self.each do |key, value|
       if args.include?(value)
